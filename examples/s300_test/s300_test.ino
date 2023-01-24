@@ -15,9 +15,9 @@ void loop() {
 
   // display the data from the sensor to serial monitor
     
-  Serial.print("Co2 Level:");
-  Serial.print(data);
-  Serial.println("ppm");
+  Serial.print("Co2 Level: ");
+  Serial.print(info);
+  Serial.println(" ppm");
 
   delay(1000);  // display data after every 1 second
 
